@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Sep 22 13:24:22 PDT 2017
+http\://download.java.net/maven/2/.lastUpdated=1506111861594
+http\://repo.spring.io/release/.lastUpdated=1506111862211
+@default-oschina-repos-http\://maven.oschina.net/content/groups/public/.lastUpdated=1506111859132
+http\://download.java.net/maven/2/.error=
+http\://maven.oschina.net/content/groups/public/.error=Could not transfer artifact org.springframework\:spring-beans\:pom\:4.0.8.RELEASE from/to oschina-repos (http\://maven.oschina.net/content/groups/public)\: Connect to maven.oschina.net\:80 [maven.oschina.net/183.78.182.122] failed\: Operation timed out

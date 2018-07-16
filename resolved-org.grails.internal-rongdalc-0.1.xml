@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org.grails.internal"
+		module="rongdalc"
+		revision="0.1"
+		status="release"
+		publication="20140925082031"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+		<conf name="build" visibility="public" description="Build system dependencies" extends="default"/>
+		<conf name="compile" visibility="public" description="Compile time dependencies" extends="default"/>
+		<conf name="runtime" visibility="public" description="Runtime time dependencies" extends="compile"/>
+		<conf name="test" visibility="public" description="Testing dependencies" extends="runtime"/>
+		<conf name="provided" visibility="public" description="Dependencies provided by the container" extends="default"/>
+		<conf name="docs" visibility="public" description="Dependencies for the documenation engine" extends="build"/>
+	</configurations>
+	<publications>
+		<artifact name="rongdalc" type="jar" ext="jar" conf="default"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.grails.plugins" name="jasper" rev="latest.integration" conf="runtime->default">
+			<artifact name="jasper" type="zip" ext="zip" conf=""/>
+			<exclude org="xml-apis" module="xml-apis" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="xml-apis" module="xmlParserAPIs" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="xerces" module="xmlParserAPIs" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+	</dependencies>
+</ivy-module>

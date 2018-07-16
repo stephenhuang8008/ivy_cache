@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Sep 22 19:42:40 PDT 2017
+http\://repo.maven.apache.org/maven2/.lastUpdated=1506112047663
+http\://download.java.net/maven/2/.lastUpdated=1506112023695
+http\://repo.spring.io/release/.lastUpdated=1506112023998
+@default-oschina-repos-http\://maven.oschina.net/content/groups/public/.lastUpdated=1506112021356
+http\://repo.spring.io/release/.error=
+http\://download.java.net/maven/2/.error=
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1506134560070
+http\://maven.oschina.net/content/groups/public/.error=Could not transfer artifact org.apache.commons\:commons-parent\:pom\:28 from/to oschina-repos (http\://maven.oschina.net/content/groups/public)\: Connect to maven.oschina.net\:80 [maven.oschina.net/183.78.182.122] failed\: Operation timed out

@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Sep 22 13:25:46 PDT 2017
+http\://repo.maven.apache.org/maven2/.lastUpdated=1506111946280
+http\://download.java.net/maven/2/.lastUpdated=1506111939007
+http\://repo.spring.io/release/.lastUpdated=1506111939316
+@default-oschina-repos-http\://maven.oschina.net/content/groups/public/.lastUpdated=1506111937248
+http\://download.java.net/maven/2/.error=
+http\://repo.spring.io/release/.error=
+http\://maven.oschina.net/content/groups/public/.error=Could not transfer artifact commons-logging\:commons-logging\:pom\:1.1.3 from/to oschina-repos (http\://maven.oschina.net/content/groups/public)\: Connect to maven.oschina.net\:80 [maven.oschina.net/183.78.182.122] failed\: Operation timed out

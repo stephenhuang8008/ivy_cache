@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.grails.internal"
+		module="tccrm2"
+		revision="0.1"
+		conf="compile"
+		confs="compile"
+		date="20140702094320"/>
+	<dependencies>
+		<module organisation="org.grails" name="grails-plugin-servlets">
+			<revision name="2.4.0" status="release" pubdate="20140521164446" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="67">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4623" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-servlets\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-servlets-2.4.0.pom"/>
+				<caller organisation="org.grails.internal" name="tccrm2" conf="default, compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-plugin-servlets" type="jar" ext="jar" status="no" details="" size="27188" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-servlets\jars\grails-plugin-servlets-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-servlets-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-services">
+			<revision name="2.4.0" status="release" pubdate="20140521164446" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="66">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5178" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-services\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-services-2.4.0.pom"/>
+				<caller organisation="org.grails.internal" name="tccrm2" conf="default, compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-plugin-services" type="jar" ext="jar" status="no" details="" size="41366" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-services\jars\grails-plugin-services-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-services-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-log4j">
+			<revision name="2.4.0" status="release" pubdate="20140521164442" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="63">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5131" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-log4j\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-log4j-2.4.0.pom"/>
+				<caller organisation="org.grails.internal" name="tccrm2" conf="default, compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-plugin-log4j" type="jar" ext="jar" status="no" details="" size="61459" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-log4j\jars\grails-plugin-log4j-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-log4j-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.5" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="65">
+				<metadata-artifact status="no" details="" size="2618" time="0" location="D:\用户目录\.grails\ivy-cache\org.slf4j\jul-to-slf4j\ivy-1.7.5.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.slf4j\jul-to-slf4j\ivy-1.7.5.xml"/>
+				<caller organisation="org.grails" name="grails-plugin-log4j" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="jar" ext="jar" status="no" details="" size="4960" time="0" location="D:\用户目录\.grails\ivy-cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.5.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="64">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2976" time="0" location="D:\用户目录\.grails\ivy-cache\log4j\log4j\ivy-1.2.17.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\log4j\log4j\ivy-1.2.17.xml"/>
+				<caller organisation="org.grails" name="grails-plugin-log4j" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="489884" time="0" location="D:\用户目录\.grails\ivy-cache\log4j\log4j\bundles\log4j-1.2.17.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\log4j\log4j\jars\log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-gsp">
+			<revision name="2.4.0" status="release" pubdate="20140521164440" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="59">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4879" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-gsp\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-gsp-2.4.0.pom"/>
+				<caller organisation="org.grails.internal" name="tccrm2" conf="default, compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-plugin-gsp" type="jar" ext="jar" status="no" details="" size="380427" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-gsp\jars\grails-plugin-gsp-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-gsp-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-logging">
+			<revision name="2.4.0" status="release" pubdate="20140521164418" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="62">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4854" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-logging\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-logging-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-log4j" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-gsp" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-logging" type="jar" ext="jar" status="no" details="" size="2877" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-logging\jars\grails-logging-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-logging-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-codecs">
+			<revision name="2.4.0" status="release" pubdate="20140521164432" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="60">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5687" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-codecs\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-codecs-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-gsp" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-plugin-codecs" type="jar" ext="jar" status="no" details="" size="81182" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-codecs\jars\grails-plugin-codecs-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-codecs-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.6" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="61">
+				<metadata-artifact status="no" details="" size="2628" time="0" location="D:\用户目录\.grails\ivy-cache\commons-codec\commons-codec\ivy-1.6.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\commons-codec\commons-codec\ivy-1.6.xml"/>
+				<caller organisation="org.grails" name="grails-plugin-codecs" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="D:\用户目录\.grails\ivy-cache\commons-codec\commons-codec\jars\commons-codec-1.6.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\commons-codec\commons-codec\jars\commons-codec-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-filters">
+			<revision name="2.4.0" status="release" pubdate="20140521164436" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="58">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4896" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-filters\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-filters-2.4.0.pom"/>
+				<caller organisation="org.grails.internal" name="tccrm2" conf="default, compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-plugin-filters" type="jar" ext="jar" status="no" details="" size="52149" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-filters\jars\grails-plugin-filters-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-filters-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-i18n">
+			<revision name="2.4.0" status="release" pubdate="20140521164440" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="57">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4871" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-i18n\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-i18n-2.4.0.pom"/>
+				<caller organisation="org.grails.internal" name="tccrm2" conf="default, compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-plugin-i18n" type="jar" ext="jar" status="no" details="" size="23291" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-i18n\jars\grails-plugin-i18n-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-i18n-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-databinding">
+			<revision name="2.4.0" status="release" pubdate="20140521164432" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="56">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4898" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-databinding\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-databinding-2.4.0.pom"/>
+				<caller organisation="org.grails.internal" name="tccrm2" conf="default, compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-plugin-databinding" type="jar" ext="jar" status="no" details="" size="23994" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-databinding\jars\grails-plugin-databinding-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-databinding-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-rest">
+			<revision name="2.4.0" status="release" pubdate="20140521164446" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5681" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-rest\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-rest-2.4.0.pom"/>
+				<caller organisation="org.grails.internal" name="tccrm2" conf="default, compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-plugin-rest" type="jar" ext="jar" status="no" details="" size="233518" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-rest\jars\grails-plugin-rest-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-rest-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-datasource">
+			<revision name="2.4.0" status="release" pubdate="20140521164434" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="40">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5749" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-datasource\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-datasource-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-rest" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-services" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-plugin-datasource" type="jar" ext="jar" status="no" details="" size="59633" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-datasource\jars\grails-plugin-datasource-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-datasource-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat" name="tomcat-jdbc">
+			<revision name="7.0.50" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="42">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2536" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.tomcat\tomcat-jdbc\ivy-7.0.50.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.apache.tomcat\tomcat-jdbc\ivy-7.0.50.xml"/>
+				<caller organisation="org.grails" name="grails-plugin-datasource" conf="compile, runtime" rev="7.0.50" rev-constraint-default="7.0.50" rev-constraint-dynamic="7.0.50" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="tomcat-jdbc" type="jar" ext="jar" status="no" details="" size="125457" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.tomcat\tomcat-jdbc\jars\tomcat-jdbc-7.0.50.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.apache.tomcat\tomcat-jdbc\jars\tomcat-jdbc-7.0.50.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat" name="tomcat-juli">
+			<revision name="7.0.50" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="43">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2364" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.tomcat\tomcat-juli\ivy-7.0.50.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.apache.tomcat\tomcat-juli\ivy-7.0.50.xml"/>
+				<caller organisation="org.apache.tomcat" name="tomcat-jdbc" conf="compile, runtime" rev="7.0.50" rev-constraint-default="7.0.50" rev-constraint-dynamic="7.0.50" callerrev="7.0.50"/>
+				<artifacts>
+					<artifact name="tomcat-juli" type="jar" ext="jar" status="no" details="" size="38682" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.tomcat\tomcat-juli\jars\tomcat-juli-7.0.50.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.apache.tomcat\tomcat-juli\jars\tomcat-juli-7.0.50.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tomcat.embed" name="tomcat-embed-logging-log4j">
+			<revision name="7.0.50" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://tomcat.apache.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="44">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2421" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.tomcat.embed\tomcat-embed-logging-log4j\ivy-7.0.50.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.apache.tomcat.embed\tomcat-embed-logging-log4j\ivy-7.0.50.xml"/>
+				<caller organisation="org.grails" name="grails-plugin-datasource" conf="compile, runtime" rev="7.0.50" rev-constraint-default="7.0.50" rev-constraint-dynamic="7.0.50" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="tomcat-embed-logging-log4j" type="jar" ext="jar" status="no" details="" size="84859" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.tomcat.embed\tomcat-embed-logging-log4j\jars\tomcat-embed-logging-log4j-7.0.50.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.apache.tomcat.embed\tomcat-embed-logging-log4j\jars\tomcat-embed-logging-log4j-7.0.50.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-jdbc">
+			<revision name="4.0.5.RELEASE" status="release" pubdate="20140610153930" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default, master(*), compile(*), runtime(*)" position="41">
+				<metadata-artifact status="no" details="" size="443" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-jdbc\ivy-4.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails" name="grails-plugin-datasource" conf="compile, runtime" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="spring-jdbc" type="jar" ext="jar" status="no" details="" size="424610" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-jdbc\jars\spring-jdbc-4.0.5.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.springframework\spring-jdbc\jars\spring-jdbc-4.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-url-mappings">
+			<revision name="2.4.0" status="release" pubdate="20140521164500" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="68">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5754" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-url-mappings\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-url-mappings-2.4.0.pom"/>
+				<caller organisation="org.grails.internal" name="tccrm2" conf="default, compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="grails-plugin-url-mappings" type="jar" ext="jar" status="no" details="" size="64593" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-url-mappings\jars\grails-plugin-url-mappings-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-url-mappings-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-controllers">
+			<revision name="2.4.0" status="release" pubdate="20140521164432" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6738" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-controllers\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-controllers-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-filters" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-rest" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-url-mappings" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-plugin-controllers" type="jar" ext="jar" status="no" details="" size="142658" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-controllers\jars\grails-plugin-controllers-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-controllers-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-async">
+			<revision name="2.4.0" status="release" pubdate="20140521164330" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="53">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4808" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-async\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-async-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-controllers" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-async" type="jar" ext="jar" status="no" details="" size="75249" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-async\jars\grails-async-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-async-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.gpars" name="gpars">
+			<revision name="1.2.0" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://gpars.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="54">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3207" time="0" location="D:\用户目录\.grails\ivy-cache\org.codehaus.gpars\gpars\ivy-1.2.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.codehaus.gpars\gpars\ivy-1.2.0.xml"/>
+				<caller organisation="org.grails" name="grails-async" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="gpars" type="jar" ext="jar" status="no" details="" size="1384362" time="0" location="D:\用户目录\.grails\ivy-cache\org.codehaus.gpars\gpars\jars\gpars-1.2.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.codehaus.gpars\gpars\jars\gpars-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jsr166-mirror" name="jsr166y">
+			<revision name="1.7.0" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="55">
+				<metadata-artifact status="no" details="" size="2192" time="0" location="D:\用户目录\.grails\ivy-cache\org.codehaus.jsr166-mirror\jsr166y\ivy-1.7.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.codehaus.jsr166-mirror\jsr166y\ivy-1.7.0.xml"/>
+				<caller organisation="org.codehaus.gpars" name="gpars" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="jsr166y" type="jar" ext="jar" status="no" details="" size="59716" time="0" location="D:\用户目录\.grails\ivy-cache\org.codehaus.jsr166-mirror\jsr166y\jars\jsr166y-1.7.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.codehaus.jsr166-mirror\jsr166y\jars\jsr166y-1.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-validation">
+			<revision name="2.4.0" status="release" pubdate="20140521164500" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="52">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5172" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-validation\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-validation-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-controllers" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-plugin-validation" type="jar" ext="jar" status="no" details="" size="39965" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-validation\jars\grails-plugin-validation-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-validation-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-mimetypes">
+			<revision name="2.4.0" status="release" pubdate="20140521164444" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="51">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4627" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-mimetypes\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-mimetypes-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-controllers" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-plugin-mimetypes" type="jar" ext="jar" status="no" details="" size="61877" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-mimetypes\jars\grails-plugin-mimetypes-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-mimetypes-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-converters">
+			<revision name="2.4.0" status="release" pubdate="20140521164432" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="49">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5173" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-converters\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-converters-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-controllers" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-codecs" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-plugin-converters" type="jar" ext="jar" status="no" details="" size="147454" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-converters\jars\grails-plugin-converters-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-converters-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-plugin-domain-class">
+			<revision name="2.4.0" status="release" pubdate="20140521164434" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="46">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9018" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-domain-class\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-plugin-domain-class-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-controllers" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-validation" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-converters" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-plugin-domain-class" type="jar" ext="jar" status="no" details="" size="110079" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-plugin-domain-class\jars\grails-plugin-domain-class-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-plugin-domain-class-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-datastore-gorm">
+			<revision name="3.1.0.RELEASE" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="48">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6830" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-datastore-gorm\ivy-3.1.0.RELEASE.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.grails\grails-datastore-gorm\ivy-3.1.0.RELEASE.xml"/>
+				<caller organisation="org.grails" name="grails-plugin-domain-class" conf="compile, runtime" rev="3.1.0.RELEASE" rev-constraint-default="3.1.0.RELEASE" rev-constraint-dynamic="3.1.0.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-datastore-gorm" type="jar" ext="jar" status="no" details="" size="564978" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-datastore-gorm\jars\grails-datastore-gorm-3.1.0.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.grails\grails-datastore-gorm\jars\grails-datastore-gorm-3.1.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-datastore-simple">
+			<revision name="3.1.0.RELEASE" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="47">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2848" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-datastore-simple\ivy-3.1.0.RELEASE.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.grails\grails-datastore-simple\ivy-3.1.0.RELEASE.xml"/>
+				<caller organisation="org.grails" name="grails-plugin-domain-class" conf="compile, runtime" rev="3.1.0.RELEASE" rev-constraint-default="3.1.0.RELEASE" rev-constraint-dynamic="3.1.0.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-datastore-simple" type="jar" ext="jar" status="no" details="" size="333672" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-datastore-simple\jars\grails-datastore-simple-3.1.0.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.grails\grails-datastore-simple\jars\grails-datastore-simple-3.1.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-web">
+			<revision name="2.4.0" status="release" pubdate="20140521164506" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7257" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-web-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-filters" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-servlets" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-controllers" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-logging" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-codecs" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-validation" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-rest" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-i18n" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-mimetypes" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-url-mappings" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-databinding" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-converters" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-web" type="jar" ext="jar" status="no" details="" size="43278" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web\jars\grails-web-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-web-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-web-fileupload">
+			<revision name="2.4.0" status="release" pubdate="20140521164510" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="32">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4904" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-fileupload\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-web-fileupload-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-web-fileupload" type="jar" ext="jar" status="no" details="" size="2482" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-fileupload\jars\grails-web-fileupload-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-web-fileupload-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.3.1" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://commons.apache.org/proper/commons-fileupload/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="33">
+				<metadata-artifact status="no" details="" size="2988" time="0" location="D:\用户目录\.grails\ivy-cache\commons-fileupload\commons-fileupload\ivy-1.3.1.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\commons-fileupload\commons-fileupload\ivy-1.3.1.xml"/>
+				<caller organisation="org.grails" name="grails-web-fileupload" conf="compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="jar" ext="jar" status="no" details="" size="69002" time="0" location="D:\用户目录\.grails\ivy-cache\commons-fileupload\commons-fileupload\jars\commons-fileupload-1.3.1.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\commons-fileupload\commons-fileupload\jars\commons-fileupload-1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.2" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
+				<metadata-artifact status="no" details="" size="2511" time="0" location="D:\用户目录\.grails\ivy-cache\commons-io\commons-io\ivy-2.2.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\commons-io\commons-io\ivy-2.2.xml"/>
+				<caller organisation="commons-fileupload" name="commons-fileupload" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="1.3.1"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="173587" time="0" location="D:\用户目录\.grails\ivy-cache\commons-io\commons-io\jars\commons-io-2.2.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\commons-io\commons-io\jars\commons-io-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjweaver">
+			<revision name="1.8.0" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="39">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2408" time="0" location="D:\用户目录\.grails\ivy-cache\org.aspectj\aspectjweaver\ivy-1.8.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.aspectj\aspectjweaver\ivy-1.8.0.xml"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="aspectjweaver" type="jar" ext="jar" status="no" details="" size="1840289" time="0" location="D:\用户目录\.grails\ivy-cache\org.aspectj\aspectjweaver\jars\aspectjweaver-1.8.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.aspectj\aspectjweaver\jars\aspectjweaver-1.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-aspects">
+			<revision name="4.0.5.RELEASE" status="release" pubdate="20140610153928" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default, master(*), compile(*), runtime(*)" position="38">
+				<metadata-artifact status="no" details="" size="449" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-aspects\ivy-4.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="spring-aspects" type="jar" ext="jar" status="no" details="" size="52360" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-aspects\jars\spring-aspects-4.0.5.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.springframework\spring-aspects\jars\spring-aspects-4.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-web-jsp">
+			<revision name="2.4.0" status="release" pubdate="20140521164510" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4864" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-jsp\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-web-jsp-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-web-jsp" type="jar" ext="jar" status="no" details="" size="160051" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-jsp\jars\grails-web-jsp-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-web-jsp-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-web-databinding">
+			<revision name="2.4.0" status="release" pubdate="20140521164508" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4900" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-databinding\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-web-databinding-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-web-databinding" type="jar" ext="jar" status="no" details="" size="123999" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-databinding\jars\grails-web-databinding-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-web-databinding-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-web-gsp">
+			<revision name="2.4.0" status="release" pubdate="20140521164510" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5220" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-gsp\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-web-gsp-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-web-jsp" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-web-gsp" type="jar" ext="jar" status="no" details="" size="402000" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-gsp\jars\grails-web-gsp-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-web-gsp-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-web-mvc">
+			<revision name="2.4.0" status="release" pubdate="20140521164512" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5144" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-mvc\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-web-mvc-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-web-mvc" type="jar" ext="jar" status="no" details="" size="44896" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-mvc\jars\grails-web-mvc-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-web-mvc-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-web-sitemesh">
+			<revision name="2.4.0" status="release" pubdate="20140521164512" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4878" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-sitemesh\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-web-sitemesh-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-web-mvc" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-gsp" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-web-sitemesh" type="jar" ext="jar" status="no" details="" size="50059" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-sitemesh\jars\grails-web-sitemesh-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-web-sitemesh-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="opensymphony" name="sitemesh">
+			<revision name="2.4" status="release" pubdate="20120319135557" resolver="cache" artresolver="cache" homepage="http://www.opensymphony.com/sitemesh" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="28">
+				<license name="The Apache Software License, Version 1.1" url="http://www.opensymphony.com/sitemesh/license.action"/>
+				<metadata-artifact status="no" details="" size="2581" time="0" location="D:\用户目录\.grails\ivy-cache\opensymphony\sitemesh\ivy-2.4.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.0.4\lib\opensymphony\sitemesh\ivy-2.4.xml"/>
+				<caller organisation="org.grails" name="grails-web-sitemesh" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="sitemesh" type="jar" ext="jar" status="no" details="" size="181191" time="0" location="D:\用户目录\.grails\ivy-cache\opensymphony\sitemesh\jars\sitemesh-2.4.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.0.4\lib\opensymphony\sitemesh\jars\sitemesh-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-web-url-mappings">
+			<revision name="2.4.0" status="release" pubdate="20140521164512" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7709" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-url-mappings\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-web-url-mappings-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-web-mvc" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-web-url-mappings" type="jar" ext="jar" status="no" details="" size="155223" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-url-mappings\jars\grails-web-url-mappings-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-web-url-mappings-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-datastore-core">
+			<revision name="3.1.0.RELEASE" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="25">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6348" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-datastore-core\ivy-3.1.0.RELEASE.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.grails\grails-datastore-core\ivy-3.1.0.RELEASE.xml"/>
+				<caller organisation="org.grails" name="grails-plugin-domain-class" conf="compile, runtime" rev="3.1.0.RELEASE" rev-constraint-default="3.1.0.RELEASE" rev-constraint-dynamic="3.1.0.RELEASE" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-url-mappings" conf="compile, runtime" rev="3.1.0.RELEASE" rev-constraint-default="3.1.0.RELEASE" rev-constraint-dynamic="3.1.0.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-datastore-core" type="jar" ext="jar" status="no" details="" size="377010" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-datastore-core\jars\grails-datastore-core-3.1.0.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.grails\grails-datastore-core\jars\grails-datastore-core-3.1.0.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.transaction" name="jta">
+			<revision name="1.1" status="release" pubdate="20120319135539" resolver="cache" artresolver="cache" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="26">
+				<metadata-artifact status="no" details="" size="2345" time="0" location="D:\用户目录\.grails\ivy-cache\javax.transaction\jta\ivy-1.1.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.0.4\lib\javax.transaction\jta\ivy-1.1.xml"/>
+				<caller organisation="org.grails" name="grails-datastore-core" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="3.1.0.RELEASE"/>
+				<artifacts>
+					<artifact name="jta" type="jar" ext="jar" status="no" details="" size="15071" time="0" location="D:\用户目录\.grails\ivy-cache\javax.transaction\jta\jars\jta-1.1.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.0.4\lib\javax.transaction\jta\jars\jta-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-web-common">
+			<revision name="2.4.0" status="release" pubdate="20140521164506" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6360" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-common\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-web-common-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-web-mvc" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-jsp" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-databinding" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-sitemesh" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-url-mappings" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-gsp" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-fileupload" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-web-common" type="jar" ext="jar" status="no" details="" size="215290" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-web-common\jars\grails-web-common-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-web-common-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.2.4" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://code.google.com/p/google-gson/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2532" time="0" location="D:\用户目录\.grails\ivy-cache\com.google.code.gson\gson\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\com.google.code.gson\gson\ivy-2.2.4.xml"/>
+				<caller organisation="org.grails" name="grails-plugin-rest" conf="default, compile, runtime, master" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-common" conf="compile, runtime" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="gson" type="jar" ext="jar" status="no" details="" size="190432" time="0" location="D:\用户目录\.grails\ivy-cache\com.google.code.gson\gson\jars\gson-2.2.4.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\com.google.code.gson\gson\jars\gson-2.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-encoder">
+			<revision name="2.4.0" status="release" pubdate="20140521164350" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4871" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-encoder\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-encoder-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-codecs" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-common" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-encoder" type="jar" ext="jar" status="no" details="" size="188612" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-encoder\jars\grails-encoder-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-encoder-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-databinding">
+			<revision name="2.4.0" status="release" pubdate="20140521164344" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4345" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-databinding\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-databinding-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-web-databinding" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-common" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-databinding" type="jar" ext="jar" status="no" details="" size="81823" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-databinding\jars\grails-databinding-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-databinding-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context-support">
+			<revision name="4.0.5.RELEASE" status="release" pubdate="20140610153927" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default, master(*), compile(*), runtime(*)" position="20">
+				<metadata-artifact status="no" details="" size="465" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-context-support\ivy-4.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails" name="grails-web-common" conf="compile, runtime" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="spring-context-support" type="jar" ext="jar" status="no" details="" size="135413" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-context-support\jars\spring-context-support-4.0.5.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.springframework\spring-context-support\jars\spring-context-support-4.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-webmvc">
+			<revision name="4.0.5.RELEASE" status="release" pubdate="20140610153927" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default, master(*), compile(*), runtime(*)" position="19">
+				<metadata-artifact status="no" details="" size="447" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-webmvc\ivy-4.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails" name="grails-web-common" conf="compile, runtime" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="spring-webmvc" type="jar" ext="jar" status="no" details="" size="662631" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-webmvc\jars\spring-webmvc-4.0.5.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.springframework\spring-webmvc\jars\spring-webmvc-4.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-validation">
+			<revision name="2.4.0" status="release" pubdate="20140521164506" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5208" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-validation\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-validation-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-domain-class" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-url-mappings" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-url-mappings" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-validation" type="jar" ext="jar" status="no" details="" size="82302" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-validation\jars\grails-validation-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-validation-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-validator" name="commons-validator">
+			<revision name="1.4.0" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://commons.apache.org/validator/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
+				<metadata-artifact status="no" details="" size="3281" time="0" location="D:\用户目录\.grails\ivy-cache\commons-validator\commons-validator\ivy-1.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\commons-validator\commons-validator\ivy-1.4.0.xml"/>
+				<caller organisation="org.grails" name="grails-validation" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="commons-validator" type="jar" ext="jar" status="no" details="" size="176897" time="0" location="D:\用户目录\.grails\ivy-cache\commons-validator\commons-validator\jars\commons-validator-1.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\commons-validator\commons-validator\jars\commons-validator-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-core">
+			<revision name="2.4.0" status="release" pubdate="20140521164342" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8686" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-core\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-core-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-domain-class" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-datasource" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-encoder" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-controllers" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-logging" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-validation" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-services" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-validation" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-databinding" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-common" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-core" type="jar" ext="jar" status="no" details="" size="735753" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-core\jars\grails-core-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-core-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjrt">
+			<revision name="1.8.0" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="37">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2400" time="0" location="D:\用户目录\.grails\ivy-cache\org.aspectj\aspectjrt\ivy-1.8.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.aspectj\aspectjrt\ivy-1.8.0.xml"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="aspectjrt" type="jar" ext="jar" status="no" details="" size="117099" time="0" location="D:\用户目录\.grails\ivy-cache\org.aspectj\aspectjrt\jars\aspectjrt-1.8.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.aspectj\aspectjrt\jars\aspectjrt-1.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate.javax.persistence" name="hibernate-jpa-2.1-api">
+			<revision name="1.0.0.Final" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="16">
+				<license name="Eclipse Public License (EPL), Version 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="Eclipse Distribution License (EDL), Version 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="2624" time="0" location="D:\用户目录\.grails\ivy-cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\ivy-1.0.0.Final.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\ivy-1.0.0.Final.xml"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="1.0.0.Final" rev-constraint-default="1.0.0.Final" rev-constraint-dynamic="1.0.0.Final" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-datastore-core" conf="compile, runtime" rev="1.0.0.Final" rev-constraint-default="1.0.0.Final" rev-constraint-dynamic="1.0.0.Final" callerrev="3.1.0.RELEASE"/>
+				<artifacts>
+					<artifact name="hibernate-jpa-2.1-api" type="jar" ext="jar" status="no" details="" size="113371" time="0" location="D:\用户目录\.grails\ivy-cache\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\jars\hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="4.0.5.RELEASE" status="release" pubdate="20140610153927" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default, master(*), compile(*), runtime(*)" position="15">
+				<metadata-artifact status="no" details="" size="449" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-context\ivy-4.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails" name="grails-plugin-datasource" conf="compile, runtime" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="spring-context" type="jar" ext="jar" status="no" details="" size="977232" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-context\jars\spring-context-4.0.5.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.springframework\spring-context\jars\spring-context-4.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20120319135545" resolver="cache" artresolver="cache" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2282" time="0" location="D:\用户目录\.grails\ivy-cache\aopalliance\aopalliance\ivy-1.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.0.4\lib\aopalliance\aopalliance\ivy-1.0.xml"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="aopalliance" type="jar" ext="jar" status="no" details="" size="4467" time="0" location="D:\用户目录\.grails\ivy-cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.0.4\lib\aopalliance\aopalliance\jars\aopalliance-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-spring">
+			<revision name="2.4.0" status="release" pubdate="20140521164504" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6078" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-spring\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-spring-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-plugin-domain-class" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-spring" type="jar" ext="jar" status="no" details="" size="41980" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-spring\jars\grails-spring-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-spring-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-web">
+			<revision name="4.0.5.RELEASE" status="release" pubdate="20140610153928" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default, master(*), compile(*), runtime(*)" position="23">
+				<metadata-artifact status="no" details="" size="441" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-web\ivy-4.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails" name="grails-encoder" conf="compile, runtime" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="spring-web" type="jar" ext="jar" status="no" details="" size="672765" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-web\jars\spring-web-4.0.5.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.springframework\spring-web\jars\spring-web-4.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-tx">
+			<revision name="4.0.5.RELEASE" status="release" pubdate="20140610153927" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default, master(*), compile(*), runtime(*)" position="13">
+				<metadata-artifact status="no" details="" size="439" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-tx\ivy-4.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-services" conf="default, compile, runtime, master" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="spring-tx" type="jar" ext="jar" status="no" details="" size="248205" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-tx\jars\spring-tx-4.0.5.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.springframework\spring-tx\jars\spring-tx-4.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru">
+			<revision name="1.4" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://code.google.com/p/concurrentlinkedhashmap" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4088" time="0" location="D:\用户目录\.grails\ivy-cache\com.googlecode.concurrentlinkedhashmap\concurrentlinkedhashmap-lru\ivy-1.4.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\com.googlecode.concurrentlinkedhashmap\concurrentlinkedhashmap-lru\ivy-1.4.xml"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-datastore-core" conf="compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="3.1.0.RELEASE"/>
+				<caller organisation="org.grails" name="grails-web-url-mappings" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-url-mappings" conf="default, compile, runtime, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="concurrentlinkedhashmap-lru" type="jar" ext="jar" status="no" details="" size="116575" time="0" location="D:\用户目录\.grails\ivy-cache\com.googlecode.concurrentlinkedhashmap\concurrentlinkedhashmap-lru\jars\concurrentlinkedhashmap-lru-1.4.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\com.googlecode.concurrentlinkedhashmap\concurrentlinkedhashmap-lru\jars\concurrentlinkedhashmap-lru-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.3.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.4"/>
+				<caller organisation="org.grails" name="grails-datastore-core" conf="compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="3.1.0.RELEASE"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20120319135542" resolver="cache" artresolver="cache" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="50">
+				<metadata-artifact status="no" details="" size="6377" time="0" location="D:\用户目录\.grails\ivy-cache\commons-lang\commons-lang\ivy-2.6.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.0.4\lib\commons-lang\commons-lang\ivy-2.6.xml"/>
+				<caller organisation="org.grails" name="grails-plugin-codecs" conf="compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-i18n" conf="default, compile, runtime, master" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-url-mappings" conf="default, compile, runtime, master" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-converters" conf="compile, runtime" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="D:\用户目录\.grails\ivy-cache\commons-lang\commons-lang\jars\commons-lang-2.6.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.0.4\lib\commons-lang\commons-lang\jars\commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xalan" name="serializer">
+			<revision name="2.7.1" status="release" pubdate="20120319135550" resolver="cache" artresolver="cache" homepage="http://xml.apache.org/xalan-j/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="35">
+				<metadata-artifact status="no" details="" size="2727" time="0" location="D:\用户目录\.grails\ivy-cache\xalan\serializer\ivy-2.7.1.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.0.4\lib\xalan\serializer\ivy-2.7.1.xml"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="serializer" type="jar" ext="jar" status="no" details="" size="278281" time="0" location="D:\用户目录\.grails\ivy-cache\xalan\serializer\jars\serializer-2.7.1.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.0.4\lib\xalan\serializer\jars\serializer-2.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="4.0.5.RELEASE" status="release" pubdate="20140610153927" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default, master(*), compile(*), runtime(*)" position="11">
+				<metadata-artifact status="no" details="" size="445" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-beans\ivy-4.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="spring-beans" type="jar" ext="jar" status="no" details="" size="670023" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-beans\jars\spring-beans-4.0.5.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.springframework\spring-beans\jars\spring-beans-4.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.grails" name="grails-bootstrap">
+			<revision name="2.4.0" status="release" pubdate="20140521164332" resolver="cache" artresolver="cache" homepage="http://grails.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6998" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-bootstrap\ivy-2.4.0.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\dist\grails-bootstrap-2.4.0.pom"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="grails-bootstrap" type="jar" ext="jar" status="no" details="" size="882546" time="0" location="D:\用户目录\.grails\ivy-cache\org.grails\grails-bootstrap\jars\grails-bootstrap-2.4.0.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\dist\grails-bootstrap-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="4.0.5.RELEASE" status="release" pubdate="20140610153927" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default, master(*), compile(*), runtime(*)" position="9">
+				<metadata-artifact status="no" details="" size="443" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-core\ivy-4.0.5.RELEASE.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="4.0.5.RELEASE" rev-constraint-default="4.0.5.RELEASE" rev-constraint-dynamic="4.0.5.RELEASE" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="spring-core" type="jar" ext="jar" status="no" details="" size="976350" time="0" location="D:\用户目录\.grails\ivy-cache\org.springframework\spring-core\jars\spring-core-4.0.5.RELEASE.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.springframework\spring-core\jars\spring-core-4.0.5.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.5" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<metadata-artifact status="no" details="" size="2665" time="0" location="D:\用户目录\.grails\ivy-cache\org.slf4j\jcl-over-slf4j\ivy-1.7.5.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.slf4j\jcl-over-slf4j\ivy-1.7.5.xml"/>
+				<caller organisation="org.grails" name="grails-bootstrap" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-jsp" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-controllers" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-codecs" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-spring" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-validation" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-async" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-validation" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-url-mappings" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-common" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-databinding" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-logging" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-domain-class" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-filters" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-mvc" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-sitemesh" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-i18n" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-services" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-gsp" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-gsp" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-converters" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-datasource" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-encoder" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-databinding" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-servlets" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-databinding" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-rest" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-log4j" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-mimetypes" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-url-mappings" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-fileupload" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16517" time="0" location="D:\用户目录\.grails\ivy-cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.5.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.5" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<metadata-artifact status="no" details="" size="2391" time="0" location="D:\用户目录\.grails\ivy-cache\org.slf4j\slf4j-api\ivy-1.7.5.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\org.slf4j\slf4j-api\ivy-1.7.5.xml"/>
+				<caller organisation="org.grails" name="grails-bootstrap" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.slf4j" name="jul-to-slf4j" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.7.5"/>
+				<caller organisation="org.grails" name="grails-web-jsp" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-controllers" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-codecs" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-spring" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-validation" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-async" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-validation" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-url-mappings" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-common" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-databinding" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-logging" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-core" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-domain-class" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-filters" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-mvc" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-i18n" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-sitemesh" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-services" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-gsp" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-gsp" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-converters" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.slf4j" name="jcl-over-slf4j" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.7.5"/>
+				<caller organisation="org.grails" name="grails-plugin-datasource" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-encoder" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-databinding" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-servlets" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-databinding" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-rest" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-log4j" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-mimetypes" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-plugin-url-mappings" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<caller organisation="org.grails" name="grails-web-fileupload" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.4.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26084" time="0" location="D:\用户目录\.grails\ivy-cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.5.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.slf4j\slf4j-api\jars\slf4j-api-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.groovy" name="groovy-all">
+			<revision name="2.3.1" status="release" pubdate="20140610153929" resolver="cache" artresolver="cache" downloaded="false" searched="false" default="true" conf="default" position="0">
+				<metadata-artifact status="no" details="" size="433" time="0" location="D:\用户目录\.grails\ivy-cache\org.codehaus.groovy\groovy-all\ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="org.grails.internal" name="tccrm2" conf="default, compile" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="groovy-all" type="jar" ext="jar" status="no" details="" size="7243524" time="0" location="D:\用户目录\.grails\ivy-cache\org.codehaus.groovy\groovy-all\jars\groovy-all-2.3.1.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\org.codehaus.groovy\groovy-all\jars\groovy-all-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

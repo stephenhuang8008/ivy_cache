@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>platform-core</artifactId>
+  <packaging>zip</packaging>
+  <version>1.0.RC5</version>
+  <name>Plugin Platform Core</name>
+  <description>Grails Plugin Platform Core APIs
+</description>
+  <url>http://grails.org/plugin/platform-core</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>Grailsrocks</name>
+    <url>http://grailsrocks.com/</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>Marc Palmer</name>
+      <email>marc@grailsrocks.com</email>
+    </developer>
+    <developer>
+      <name>Marc Palmer</name>
+      <email>marc@grailsrocks.com</email>
+    </developer>
+    <developer>
+      <name>Stéphane Maldini</name>
+      <email>smaldini@vmware.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>http://jira.grails.org/browse/GPPLATFORMCORE</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/Grailsrocks/grails-platform-core</url>
+  </scm>
+  <dependencies />
+</project>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.grails.internal"
+		module="rongdalc"
+		revision="0.1"
+		conf="test"
+		confs="default, build, compile, runtime, test, provided, docs"
+		date="20140925082031"/>
+	<dependencies>
+		<module organisation="org.grails.plugins" name="jasper">
+			<revision name="1.11.0-SNAPSHOT" status="integration" pubdate="20140925082046" resolver="http://repo.grails.org/grails/plugins" artresolver="http://repo.grails.org/grails/plugins" homepage="http://www.grails.org/plugin/jasper" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="0">
+				<metadata-artifact status="successful" details="" size="7962" time="1451" location="D:\用户目录\.grails\ivy-cache\org.grails.plugins\jasper\ivy-1.11.0-SNAPSHOT.xml" searched="true" original-local-location="D:\用户目录\.grails\ivy-cache\org.grails.plugins\jasper\ivy-1.11.0-SNAPSHOT.xml.original" origin-is-local="false" origin-location="http://repo.grails.org/grails/plugins/org/grails/plugins/jasper/1.11.0-SNAPSHOT/jasper-1.11.0-SNAPSHOT.pom"/>
+				<caller organisation="org.grails.internal" name="rongdalc" conf="default, test, compile, runtime" rev="latest.integration" rev-constraint-default="latest.integration" rev-constraint-dynamic="latest.integration" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jasper" type="zip" ext="zip" status="successful" details="" size="83131" time="2980" location="D:\用户目录\.grails\ivy-cache\org.grails.plugins\jasper\zips\jasper-1.11.0-SNAPSHOT.zip">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/plugins/org/grails/plugins/jasper/1.11.0-SNAPSHOT/jasper-1.11.0-20140922.031722-1.zip"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lowagie" name="itext">
+			<revision name="2.1.7" status="release" pubdate="20140923175136" resolver="cache" artresolver="cache" homepage="http://www.lowagie.com/iText/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+				<license name="Mozilla Public License" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<metadata-artifact status="no" details="" size="3088" time="0" location="D:\用户目录\.grails\ivy-cache\com.lowagie\itext\ivy-2.1.7.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/com/lowagie/itext/2.1.7/itext-2.1.7.pom"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="2.1.7.js2" rev-constraint-default="2.1.7.js2" rev-constraint-dynamic="2.1.7.js2" callerrev="5.6.1"/>
+				<caller organisation="org.grails.plugins" name="jasper" conf="default, compile, runtime, master" rev="2.1.7" rev-constraint-default="2.1.7" rev-constraint-dynamic="2.1.7" callerrev="1.11.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="itext" type="jar" ext="jar" status="no" details="" size="1130070" time="0" location="D:\用户目录\.grails\ivy-cache\com.lowagie\itext\jars\itext-2.1.7.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/com/lowagie/itext/2.1.7/itext-2.1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.1.7.js2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.1.7"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="2.1.7.js2" rev-constraint-default="2.1.7.js2" rev-constraint-dynamic="2.1.7.js2" callerrev="5.6.1"/>
+				<caller organisation="org.grails.plugins" name="jasper" conf="default, compile, runtime, master" rev="2.1.7" rev-constraint-default="2.1.7" rev-constraint-dynamic="2.1.7" callerrev="1.11.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="bouncycastle" name="bctsp-jdk14">
+			<revision name="138" status="release" pubdate="20140923180314" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<metadata-artifact status="no" details="" size="2428" time="0" location="D:\用户目录\.grails\ivy-cache\bouncycastle\bctsp-jdk14\ivy-138.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/bouncycastle/bctsp-jdk14/138/bctsp-jdk14-138.pom"/>
+				<caller organisation="com.lowagie" name="itext" conf="compile, runtime" rev="138" rev-constraint-default="138" rev-constraint-dynamic="138" callerrev="2.1.7"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bctsp-jdk14">
+			<revision name="1.38" status="release" pubdate="20140923173834" resolver="cache" artresolver="cache" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime, master" position="9">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="3122" time="0" location="D:\用户目录\.grails\ivy-cache\org.bouncycastle\bctsp-jdk14\ivy-1.38.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/org/bouncycastle/bctsp-jdk14/1.38/bctsp-jdk14-1.38.pom"/>
+				<caller organisation="bouncycastle" name="bctsp-jdk14" conf="compile, runtime, master" rev="1.38" rev-constraint-default="1.38" rev-constraint-dynamic="1.38" callerrev="138"/>
+				<artifacts>
+					<artifact name="bctsp-jdk14" type="jar" ext="jar" status="no" details="" size="22994" time="0" location="D:\用户目录\.grails\ivy-cache\org.bouncycastle\bctsp-jdk14\jars\bctsp-jdk14-1.38.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/org/bouncycastle/bctsp-jdk14/1.38/bctsp-jdk14-1.38.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcmail-jdk14">
+			<revision name="1.38" status="release" pubdate="20140923173834" resolver="cache" artresolver="cache" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="11">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="3107" time="0" location="D:\用户目录\.grails\ivy-cache\org.bouncycastle\bcmail-jdk14\ivy-1.38.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/org/bouncycastle/bcmail-jdk14/1.38/bcmail-jdk14-1.38.pom"/>
+				<caller organisation="org.bouncycastle" name="bctsp-jdk14" conf="compile, runtime" rev="1.38" rev-constraint-default="1.38" rev-constraint-dynamic="1.38" callerrev="1.38"/>
+				<artifacts>
+					<artifact name="bcmail-jdk14" type="jar" ext="jar" status="no" details="" size="192035" time="0" location="D:\用户目录\.grails\ivy-cache\org.bouncycastle\bcmail-jdk14\jars\bcmail-jdk14-1.38.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/org/bouncycastle/bcmail-jdk14/1.38/bcmail-jdk14-1.38.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk14">
+			<revision name="1.38" status="release" pubdate="20140923173834" resolver="cache" artresolver="cache" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2759" time="0" location="D:\用户目录\.grails\ivy-cache\org.bouncycastle\bcprov-jdk14\ivy-1.38.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/org/bouncycastle/bcprov-jdk14/1.38/bcprov-jdk14-1.38.pom"/>
+				<caller organisation="org.bouncycastle" name="bctsp-jdk14" conf="compile, runtime" rev="1.38" rev-constraint-default="1.38" rev-constraint-dynamic="1.38" callerrev="1.38"/>
+				<caller organisation="org.bouncycastle" name="bcmail-jdk14" conf="compile, runtime" rev="1.38" rev-constraint-default="1.38" rev-constraint-dynamic="1.38" callerrev="1.38"/>
+				<artifacts>
+					<artifact name="bcprov-jdk14" type="jar" ext="jar" status="no" details="" size="1551468" time="0" location="D:\用户目录\.grails\ivy-cache\org.bouncycastle\bcprov-jdk14\jars\bcprov-jdk14-1.38.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/org/bouncycastle/bcprov-jdk14/1.38/bcprov-jdk14-1.38.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="bouncycastle" name="bcprov-jdk14">
+			<revision name="138" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<license name="Bouncy Castle License" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2636" time="0" location="D:\用户目录\.grails\ivy-cache\bouncycastle\bcprov-jdk14\ivy-138.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\bouncycastle\bcprov-jdk14\ivy-138.xml"/>
+				<caller organisation="com.lowagie" name="itext" conf="compile, runtime" rev="138" rev-constraint-default="138" rev-constraint-dynamic="138" callerrev="2.1.7"/>
+				<artifacts>
+					<artifact name="bcprov-jdk14" type="jar" ext="jar" status="no" details="" size="1551468" time="0" location="D:\用户目录\.grails\ivy-cache\bouncycastle\bcprov-jdk14\jars\bcprov-jdk14-138.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\bouncycastle\bcprov-jdk14\jars\bcprov-jdk14-138.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="bouncycastle" name="bcmail-jdk14">
+			<revision name="138" status="release" pubdate="19700101005959" resolver="cache" artresolver="cache" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+				<license name="Bouncy Castle License" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2636" time="0" location="D:\用户目录\.grails\ivy-cache\bouncycastle\bcmail-jdk14\ivy-138.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.4.0\lib\bouncycastle\bcmail-jdk14\ivy-138.xml"/>
+				<caller organisation="com.lowagie" name="itext" conf="compile, runtime" rev="138" rev-constraint-default="138" rev-constraint-dynamic="138" callerrev="2.1.7"/>
+				<artifacts>
+					<artifact name="bcmail-jdk14" type="jar" ext="jar" status="no" details="" size="192035" time="0" location="D:\用户目录\.grails\ivy-cache\bouncycastle\bcmail-jdk14\jars\bcmail-jdk14-138.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.4.0\lib\bouncycastle\bcmail-jdk14\jars\bcmail-jdk14-138.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.jasperreports" name="jasperreports">
+			<revision name="5.6.1" status="release" pubdate="20140924093010" resolver="cache" artresolver="cache" homepage="http://jasperreports.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<license name="GNU Lesser General Public License" url="http://jasperreports.sourceforge.net/license.html"/>
+				<metadata-artifact status="no" details="" size="9912" time="0" location="D:\用户目录\.grails\ivy-cache\net.sf.jasperreports\jasperreports\ivy-5.6.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/net/sf/jasperreports/jasperreports/5.6.1/jasperreports-5.6.1.pom"/>
+				<caller organisation="org.grails.plugins" name="jasper" conf="default, compile, runtime, master" rev="5.6.1" rev-constraint-default="5.6.1" rev-constraint-dynamic="5.6.1" callerrev="1.11.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jasperreports" type="jar" ext="jar" status="no" details="" size="4939775" time="0" location="D:\用户目录\.grails\ivy-cache\net.sf.jasperreports\jasperreports\jars\jasperreports-5.6.1.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/net/sf/jasperreports/jasperreports/5.6.1/jasperreports-5.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queryparser">
+			<revision name="4.5.1" status="release" pubdate="20140924014746" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="20">
+				<metadata-artifact status="no" details="" size="24771" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.lucene\lucene-queryparser\ivy-4.5.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/org/apache/lucene/lucene-queryparser/4.5.1/lucene-queryparser-4.5.1.pom"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="5.6.1"/>
+				<artifacts>
+					<artifact name="lucene-queryparser" type="jar" ext="jar" status="no" details="" size="384884" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.lucene\lucene-queryparser\jars\lucene-queryparser-4.5.1.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/org/apache/lucene/lucene-queryparser/4.5.1/lucene-queryparser-4.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-sandbox">
+			<revision name="4.5.1" status="release" pubdate="20140924014748" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="22">
+				<metadata-artifact status="no" details="" size="24556" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.lucene\lucene-sandbox\ivy-4.5.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/org/apache/lucene/lucene-sandbox/4.5.1/lucene-sandbox-4.5.1.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-queryparser" conf="compile, runtime" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="4.5.1"/>
+				<artifacts>
+					<artifact name="lucene-sandbox" type="jar" ext="jar" status="no" details="" size="45578" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.lucene\lucene-sandbox\jars\lucene-sandbox-4.5.1.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/org/apache/lucene/lucene-sandbox/4.5.1/lucene-sandbox-4.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queries">
+			<revision name="4.5.1" status="release" pubdate="20140924014747" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="21">
+				<metadata-artifact status="no" details="" size="24423" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.lucene\lucene-queries\ivy-4.5.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/org/apache/lucene/lucene-queries/4.5.1/lucene-queries-4.5.1.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-queryparser" conf="compile, runtime" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="4.5.1"/>
+				<artifacts>
+					<artifact name="lucene-queries" type="jar" ext="jar" status="no" details="" size="205195" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.lucene\lucene-queries\jars\lucene-queries-4.5.1.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/org/apache/lucene/lucene-queries/4.5.1/lucene-queries-4.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
+			<revision name="4.5.1" status="release" pubdate="20140924014746" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="19">
+				<metadata-artifact status="no" details="" size="24469" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.lucene\lucene-analyzers-common\ivy-4.5.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/org/apache/lucene/lucene-analyzers-common/4.5.1/lucene-analyzers-common-4.5.1.pom"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="5.6.1"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-common" type="jar" ext="jar" status="no" details="" size="1586103" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.lucene\lucene-analyzers-common\jars\lucene-analyzers-common-4.5.1.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/org/apache/lucene/lucene-analyzers-common/4.5.1/lucene-analyzers-common-4.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="4.5.1" status="release" pubdate="20140924014743" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="18">
+				<metadata-artifact status="no" details="" size="24303" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.lucene\lucene-core\ivy-4.5.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/org/apache/lucene/lucene-core/4.5.1/lucene-core-4.5.1.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-queryparser" conf="compile, runtime" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="4.5.1"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="5.6.1"/>
+				<caller organisation="org.apache.lucene" name="lucene-analyzers-common" conf="compile, runtime" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="4.5.1"/>
+				<caller organisation="org.apache.lucene" name="lucene-sandbox" conf="compile, runtime" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="4.5.1"/>
+				<caller organisation="org.apache.lucene" name="lucene-queries" conf="compile, runtime" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="4.5.1"/>
+				<artifacts>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="2297477" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.lucene\lucene-core\jars\lucene-core-4.5.1.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/org/apache/lucene/lucene-core/4.5.1/lucene-core-4.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.1.4" status="release" pubdate="20140923233406" resolver="cache" artresolver="cache" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="16">
+				<metadata-artifact status="no" details="" size="6279" time="0" location="D:\用户目录\.grails\ivy-cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/com/fasterxml/jackson/core/jackson-databind/2.1.4/jackson-databind-2.1.4.pom"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="5.6.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="926562" time="0" location="D:\用户目录\.grails\ivy-cache\com.fasterxml.jackson.core\jackson-databind\jars\jackson-databind-2.1.4.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/com/fasterxml/jackson/core/jackson-databind/2.1.4/jackson-databind-2.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.1.4" status="release" pubdate="20140923233412" resolver="cache" artresolver="cache" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
+				<metadata-artifact status="no" details="" size="4272" time="0" location="D:\用户目录\.grails\ivy-cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/com/fasterxml/jackson/core/jackson-annotations/2.1.4/jackson-annotations-2.1.4.pom"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="5.6.1"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="2.1.4"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="34476" time="0" location="D:\用户目录\.grails\ivy-cache\com.fasterxml.jackson.core\jackson-annotations\jars\jackson-annotations-2.1.4.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/com/fasterxml/jackson/core/jackson-annotations/2.1.4/jackson-annotations-2.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.1.4" status="release" pubdate="20140923141950" resolver="cache" artresolver="cache" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="15">
+				<metadata-artifact status="no" details="" size="4581" time="0" location="D:\用户目录\.grails\ivy-cache\com.fasterxml.jackson.core\jackson-core\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/com/fasterxml/jackson/core/jackson-core/2.1.4/jackson-core-2.1.4.pom"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="5.6.1"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="2.1.4"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="206866" time="0" location="D:\用户目录\.grails\ivy-cache\com.fasterxml.jackson.core\jackson-core\jars\jackson-core-2.1.4.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/com/fasterxml/jackson/core/jackson-core/2.1.4/jackson-core-2.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.castor" name="castor">
+			<revision name="1.2" status="release" pubdate="20140923230138" resolver="cache" artresolver="cache" homepage="http://castor.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="14">
+				<metadata-artifact status="no" details="" size="3534" time="0" location="D:\用户目录\.grails\ivy-cache\org.codehaus.castor\castor\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/org/codehaus/castor/castor/1.2/castor-1.2.pom"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="5.6.1"/>
+				<artifacts>
+					<artifact name="castor" type="jar" ext="jar" status="no" details="" size="864598" time="0" location="D:\用户目录\.grails\ivy-cache\org.codehaus.castor\castor\jars\castor-1.2.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/org/codehaus/castor/castor/1.2/castor-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta-regexp" name="jakarta-regexp">
+			<revision name="1.4" status="release" pubdate="20140924014749" resolver="cache" artresolver="cache" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="23">
+				<metadata-artifact status="no" details="" size="2227" time="0" location="D:\用户目录\.grails\ivy-cache\jakarta-regexp\jakarta-regexp\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-sandbox" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="4.5.1"/>
+				<artifacts>
+					<artifact name="jakarta-regexp" type="jar" ext="jar" status="no" details="" size="28576" time="0" location="D:\用户目录\.grails\ivy-cache\jakarta-regexp\jakarta-regexp\jars\jakarta-regexp-1.4.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jfree" name="jfreechart">
+			<revision name="1.0.12" status="release" pubdate="20140923230125" resolver="cache" artresolver="cache" homepage="http://www.jfree.org/jfreechart/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
+				<license name="GNU Lesser General Public Licence" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3066" time="0" location="D:\用户目录\.grails\ivy-cache\jfree\jfreechart\ivy-1.0.12.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/jfree/jfreechart/1.0.12/jfreechart-1.0.12.pom"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="1.0.12" rev-constraint-default="1.0.12" rev-constraint-dynamic="1.0.12" callerrev="5.6.1"/>
+				<artifacts>
+					<artifact name="jfreechart" type="jar" ext="jar" status="no" details="" size="1368681" time="0" location="D:\用户目录\.grails\ivy-cache\jfree\jfreechart\jars\jfreechart-1.0.12.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/jfree/jfreechart/1.0.12/jfreechart-1.0.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jfree" name="jcommon">
+			<revision name="1.0.15" status="release" pubdate="20140923230120" resolver="cache" artresolver="cache" homepage="http://www.jfree.org/jcommon/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<license name="GNU Lesser General Public Licence" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2636" time="0" location="D:\用户目录\.grails\ivy-cache\jfree\jcommon\ivy-1.0.15.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/jfree/jcommon/1.0.15/jcommon-1.0.15.pom"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="1.0.15" rev-constraint-default="1.0.15" rev-constraint-dynamic="1.0.15" callerrev="5.6.1"/>
+				<caller organisation="jfree" name="jfreechart" conf="compile, runtime" rev="1.0.15" rev-constraint-default="1.0.15" rev-constraint-dynamic="1.0.15" callerrev="1.0.12"/>
+				<artifacts>
+					<artifact name="jcommon" type="jar" ext="jar" status="no" details="" size="309294" time="0" location="D:\用户目录\.grails\ivy-cache\jfree\jcommon\jars\jcommon-1.0.15.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/jfree/jcommon/1.0.15/jcommon-1.0.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-digester" name="commons-digester">
+			<revision name="2.1" status="release" pubdate="20140923151432" resolver="cache" artresolver="cache" homepage="http://commons.apache.org/digester/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<metadata-artifact status="no" details="" size="6889" time="0" location="D:\用户目录\.grails\ivy-cache\commons-digester\commons-digester\ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/commons-digester/commons-digester/2.1/commons-digester-2.1.pom"/>
+				<caller organisation="net.sf.jasperreports" name="jasperreports" conf="compile, runtime" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="5.6.1"/>
+				<artifacts>
+					<artifact name="commons-digester" type="jar" ext="jar" status="no" details="" size="196768" time="0" location="D:\用户目录\.grails\ivy-cache\commons-digester\commons-digester\jars\commons-digester-2.1.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/commons-digester/commons-digester/2.1/commons-digester-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="3.10-FINAL" status="release" pubdate="20140924014732" resolver="cache" artresolver="cache" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2938" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.poi\poi\ivy-3.10-FINAL.xml" searched="false" origin-is-local="false" origin-location="http://repo.grails.org/grails/core/org/apache/poi/poi/3.10-FINAL/poi-3.10-FINAL.pom"/>
+				<caller organisation="org.grails.plugins" name="jasper" conf="default, compile, runtime, master" rev="3.10-FINAL" rev-constraint-default="3.10-FINAL" rev-constraint-dynamic="3.10-FINAL" callerrev="1.11.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="poi" type="jar" ext="jar" status="no" details="" size="1950905" time="0" location="D:\用户目录\.grails\ivy-cache\org.apache.poi\poi\jars\poi-3.10-FINAL.jar">
+						<origin-location is-local="false" location="http://repo.grails.org/grails/core/org/apache/poi/poi/3.10-FINAL/poi-3.10-FINAL.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.5" status="release" pubdate="20120319135602" resolver="cache" artresolver="cache" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<metadata-artifact status="no" details="" size="6291" time="0" location="D:\用户目录\.grails\ivy-cache\commons-codec\commons-codec\ivy-1.5.xml" searched="false" origin-is-local="true" origin-location="d:\java\grails-2.0.4\lib\commons-codec\commons-codec\ivy-1.5.xml"/>
+				<caller organisation="org.apache.poi" name="poi" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="3.10-FINAL"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="73098" time="0" location="D:\用户目录\.grails\ivy-cache\commons-codec\commons-codec\jars\commons-codec-1.5.jar">
+						<origin-location is-local="true" location="d:\java\grails-2.0.4\lib\commons-codec\commons-codec\jars\commons-codec-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

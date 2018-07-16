@@ -1,0 +1,28 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Sep 23 09:02:54 PDT 2017
+http\://repo1.maven.org/maven2/.lastUpdated=1506182562699
+http\://git.oschina.net/thinkgem/repos/raw/master/.lastUpdated=1506182569777
+file\:///Users/huangguan/IntelliJIdea/hlwjr_hgh_yz/src/main/webapp/WEB-INF/lib/.lastUpdated=1506112524651
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1506182556788
+https\://repo.maven.apache.org/maven2/.lastUpdated=1506182574887
+file\:///Users/huangguan/IntelliJIdea/hlwjr_hgh_yz/src/main/webapp/WEB-INF/lib/.error=
+http\://192.168.2.194\:8081/nexus/content/repositories/public/.error=Could not transfer artifact com.seeyon\:seeyon-ctp-core\:pom\:0.0.1 from/to nexus (http\://192.168.2.194\:8081/nexus/content/repositories/public/)\: Connect to 192.168.2.194\:8081 [/192.168.2.194] failed\: Operation timed out
+http\://repo.maven.apache.org/maven2/.lastUpdated=1506182559935
+https\://repo.maven.apache.org/maven2/.error=
+http\://repo.spring.io/release/.lastUpdated=1506182559116
+http\://maven.aliyun.com/nexus/content/groups/public/.error=
+@default-nexus-http\://192.168.2.194\:8081/nexus/content/repositories/public/.lastUpdated=1506148130650
+http\://download.java.net/maven/2/.lastUpdated=1506182558707
+http\://repo.maven.apache.org/maven2/.error=
+http\://download.java.net/maven/2/.error=
+file\:///Users/huangguan/IntelliJIdea/hlwjr_hxpay_yz/src/main/webapp/WEB-INF/lib/.error=
+https\://maven.alfresco.com/nexus/content/groups/public/.lastUpdated=1506182565668
+https\://raw.github.com/thinkgem/repository/master/.error=
+file\:///Users/huangguan/IntelliJIdea/hlwjr_hxpay_yz/src/main/webapp/WEB-INF/lib/.lastUpdated=1506182572261
+https\://maven.alfresco.com/nexus/content/groups/public/.error=
+https\://app.camunda.com/nexus/content/groups/public/.lastUpdated=1506182569665
+http\://git.oschina.net/thinkgem/repos/raw/master/.error=
+http\://repo.spring.io/release/.error=
+https\://app.camunda.com/nexus/content/groups/public/.error=
+http\://repo1.maven.org/maven2/.error=
+https\://raw.github.com/thinkgem/repository/master/.lastUpdated=1506182572251
